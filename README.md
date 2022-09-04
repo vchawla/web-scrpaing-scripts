@@ -2,6 +2,7 @@
 
 ## cryptoslam.py
 
+Used for Section 1.<br/>
 The file called cryptoslam.py pulls data from cryptoslam.io website.<br/>
 It pulls HTML table called **Blockchains by NFT Sales Volume (24 hours)** from the homepage.<br/>
 Extracted data is stored in Firestore.<br/> 
@@ -10,6 +11,7 @@ The Firestore credentials certificate JSON file should be stored under creds fol
 
 ## immutascan_post.py
 
+Used for Section 1.<br/>
 The file called immutascan_post.py pulls data from immutasca.io website.<br/>
 It pulls **Trade Volume chart** from the homepage by invoking the HTTP request which have been obtained using Chrome developer tools.<br/>
 Extracted data is stored in Firestore.<br/>
@@ -17,7 +19,8 @@ The Firestore credentials certificate JSON file should be stored under creds fol
 
 ## Projects.py
 
-The file called Projects.py pulls data from a given NFT project from both the websites.<br/>
+Used for Section 2.<br/>
+The file called Projects.py pulls data for a given NFT project from both the websites.<br/>
 Data is extracted in same fashion as above scripts. <br/>
 The script can be configured to pass a specific project name and Immutable address to fetch its data.<br/>
 Extracted data is stored in Firestore.<br/>
