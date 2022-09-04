@@ -82,5 +82,5 @@ save(
 
 
 
-with open("response.txt", "w") as f:
-    f.write(response.text)
+# with open("response.txt", "w") as f:
+#     f.write(response.text)
